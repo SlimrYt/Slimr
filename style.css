@@ -1,0 +1,62 @@
+	html {
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: #42445A;
+  background-repeat: no-repeat;
+  background: -webkit-linear-gradient(to left top, blue, red);
+  background: -moz-linear-gradient(to left top, blue, red);
+  background: -ms-linear-gradient(to left top, blue, red);
+  background: -o-linear-gradient(to left top, blue, red);
+  background: linear-gradient(to left top, blue, red);
+}
+
+.text{
+text-align:center;
+border:3px solid whitesmoke;
+border-radius: 10px;
+top: 5%;
+position: absolute;
+top: 20%;
+left: 22%;
+margin-top: -50px;
+margin-left: -50px;
+width: 310px;
+height: 400px;  
+background-image: whitesmoke;
+background-repeat: no-repeat;
+background-position: left top;
+padding-top:99px;
+margin-bottom:90px;
+-webkit-animation-duration: 10s;
+animation-duration: 10s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+background:whitesmoke;
+}
+
+
+h1, h2, h3, h4, h5, p{
+ font-family: 'Roboto Mono', monospace;
+  
+}
+a.button, a.active{
+  background:skyblue;
+  background-size:100px 100px ;
+  font-size:15px;
+  font-family: 'Roboto Mono', monospace;
+  margin:4px 2px;
+  display:inline-block;
+  padding:15px 32px;
+  border-radius:10px;
+}
+
+
+/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
